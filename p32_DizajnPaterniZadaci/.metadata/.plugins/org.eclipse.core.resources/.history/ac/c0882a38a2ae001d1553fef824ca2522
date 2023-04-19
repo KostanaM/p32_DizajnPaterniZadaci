@@ -1,0 +1,19 @@
+package kostana.maksic;
+
+public enum Boje {
+	Crvena(200), Zelena(150), Plava(100), Crna(250), Bela(179), Zuta(124);
+	
+	int udeo;
+
+	private Boje(int udeo) {
+		this.udeo = udeo;
+	}
+
+	public int getUdeo() {
+		return udeo;
+	}
+
+	
+	
+
+}

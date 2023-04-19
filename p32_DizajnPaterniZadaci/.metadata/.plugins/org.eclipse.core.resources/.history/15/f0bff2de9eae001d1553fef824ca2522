@@ -1,0 +1,26 @@
+package kostana.maksic;
+
+import java.io.IOException;
+
+import javax.swing.JOptionPane;
+
+import k.boje;
+
+public class zaza {
+	public static void main(String[] args) {
+		
+			Boje b;
+		
+	//Boje niz [] = Boje.values();
+	
+	for(Boje c : Boje.values())
+		System.out.print(" "+ c + " "+ c.ordinal());
+	Boje c1;
+	c1=Boje.valueOf("Crvena");
+	System.out.println(Boje.Bela.getUdeo());
+	
+	
+		
+	}
+	
+}

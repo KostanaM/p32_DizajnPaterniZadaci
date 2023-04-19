@@ -1,0 +1,21 @@
+package k;
+
+import java.io.DataInputStream;
+import java.io.FileOutputStream;
+
+
+public class hfaha {
+
+	public static void main(String[] args) {
+		
+		DataInputStream dis=new DataInputStream(System.in);
+		
+		FileOutputStream fos = new FileOutputStream("koki.txt");
+		
+		int t;
+		while((t = dis.read()) != 1)
+			fos.write(t);
+
+	}
+
+}

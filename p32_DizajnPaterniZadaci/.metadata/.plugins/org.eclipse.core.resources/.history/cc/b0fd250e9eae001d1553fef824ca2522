@@ -1,0 +1,21 @@
+package kostana.maksic;
+
+import java.io.IOException;
+
+import javax.swing.JOptionPane;
+
+import k.boje;
+
+public class zaza {
+	public static void main(String[] args) {
+		
+			boje b;
+		
+	Boje niz [] = Boje.values();
+	
+	for(Boje c : niz)
+		System.out.println(c);
+		
+	}
+	
+}

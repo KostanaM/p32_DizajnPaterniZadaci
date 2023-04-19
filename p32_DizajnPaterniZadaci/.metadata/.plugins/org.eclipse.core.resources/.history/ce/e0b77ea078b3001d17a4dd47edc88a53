@@ -1,0 +1,28 @@
+package k;
+
+public class lkj implements Runnable {
+ String ime;
+ Thread t;
+
+ 
+ 
+ 
+public lkj(String ime, Thread t) {
+	this.ime = ime;
+	Thread t = new Thread(this, ime);
+	t.start();
+}
+
+
+
+
+public void run() {
+	// TODO Auto-generated method stub
+	
+}
+ 
+	
+	
+	}
+
+

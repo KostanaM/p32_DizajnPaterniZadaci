@@ -1,0 +1,11 @@
+package k;
+
+public class lkj implements Runnable {
+ String ime;
+ Thread t;
+ 
+	
+	
+	}
+
+}

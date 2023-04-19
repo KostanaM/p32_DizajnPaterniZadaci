@@ -1,0 +1,25 @@
+package k;
+
+public class m {
+
+	public static void main(String[] args) {
+		boje b;
+		
+		b = boje.Bela;
+		b= boje.Crvena;
+		b=boje.Narandzasta;
+		
+		if(b==boje.Plava)
+			System.out.println("Plava");
+		else if(b==boje.Crvena)
+			System.out.println("Crvena");
+		else if(b==boje.Zuta)
+			System.out.println("Zuta");
+		else if(b==boje.Zelena)
+			System.out.println("Zelena");
+		
+		
+		
+	}
+
+}

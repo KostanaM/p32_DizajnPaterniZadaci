@@ -1,0 +1,30 @@
+package kostana.maksic;
+
+import java.io.IOException;
+import java.util.Random;
+
+
+
+import k.boje;
+
+public class zaza {
+	Random rand = new Random();
+		
+Boje b() {	
+		
+		int vrednost = (int) (rand.nextDouble() * 100);
+		
+		if(vrednost < 15)
+			return Boje.MOZDA;
+		else if(vrednost < 30)
+			return Boje.DA;
+		else if(vrednost < 60)
+			return Boje.NE;
+		else if(vrednost < 75)
+			return Boje.KASNIJE;
+		else if(vrednost < 95)
+			return Boje.USKORO;
+		else 
+			return Boje.NIKAD;		
+	}
+}

@@ -1,0 +1,35 @@
+package kostana.maksic;
+
+import java.io.IOException;
+
+import javax.swing.JOptionPane;
+
+import k.boje;
+
+public class zaza {
+	public static void main(String[] args) {
+		Boje b1, b2, b3;
+		b1= Boje.Bela;
+		b2=Boje.Crna;
+		b3=Boje.Crvena;
+		
+	//Boje niz [] = Boje.values();
+	
+	for(Boje c : Boje.values())
+		System.out.print(" "+ c + " "+ c.ordinal());
+	Boje c1;
+	c1=Boje.valueOf("Crvena");
+	System.out.println("\n" + Boje.Bela.getUdeo());
+	
+	if(b1.compareTo(b2)>0)
+		System.out.println("pre");
+	if(b2.compareTo(b3)>0)
+		System.out.println("pre");
+	
+	if(b1.equals(b2))
+		System.out.println("isto");
+	else
+		System.out.println("ne");
+	}
+	
+}

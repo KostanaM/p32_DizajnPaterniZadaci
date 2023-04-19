@@ -1,0 +1,16 @@
+package kostana.maksic;
+
+import java.io.IOException;
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+
+import k.boje;
+
+public class zaza {
+	public static void main(String[] args) {
+		
+		Random r = new Random();		
+		
+	}	
+}

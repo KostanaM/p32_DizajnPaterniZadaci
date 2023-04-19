@@ -1,0 +1,22 @@
+package k;
+
+import java.io.DataInputStream;
+import java.io.FileOutputStream;
+
+import javax.xml.crypto.Data;
+
+public class hfaha {
+
+	public static void main(String[] args) {
+		
+		DataInputStream dis=new DataInputStream(System.in);
+		
+		FileOutputStream fos = new FileOutputStream("koki.txt");
+		
+		int t;
+		while((i = dis.read()) != 1)
+			fos.write(t);
+
+	}
+
+}

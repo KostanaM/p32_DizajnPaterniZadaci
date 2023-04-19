@@ -1,0 +1,12 @@
+package k;
+
+public class m {
+
+	public static void main(String[] args) {
+		boje b;
+		
+		b.Crna;
+		b.Crvena;
+	}
+
+}

@@ -1,0 +1,14 @@
+package k;
+
+public class m {
+
+	public static void main(String[] args) {
+		boje b;
+		
+		b = boje.Bela;
+		b= boje.Crvena;
+		b=boje.Narandzasta;
+		
+	}
+
+}
